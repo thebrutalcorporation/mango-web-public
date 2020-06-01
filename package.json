@@ -31,12 +31,12 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "dev": "gatsby develop",
-    "now-dev": "gatsby develop -p $PORT --prefix-paths",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run serve",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "dev:netlify": "netlify dev",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "serve": "gatsby serve",
+    "start": "npm run serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "workspaces": [
